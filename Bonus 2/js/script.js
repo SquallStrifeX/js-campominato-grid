@@ -19,8 +19,7 @@ let containerPadre = document.getElementById('container_padre')
     containerPadre.appendChild(nuovoQuadrato);
     nuovoQuadrato.textContent = (i+1);
     nuovoQuadrato.addEventListener("click", function onClick(event){
-    nuovoQuadrato.classList.toggle("bg-warning");
-    console.log(nuovoQuadrato.textContent)
+    nuovoQuadrato.classList.toggle("bg-warning")
 
     })
 }
