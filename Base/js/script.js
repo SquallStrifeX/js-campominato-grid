@@ -2,6 +2,7 @@
 let buttonStart = document.getElementById('button_start');
 
 buttonStart.addEventListener("click", function(){
+  containerPadre.innerHTML = " "
     for(i=0; i<100; i++)
     creazioneDiUnQuadrato();
 
